@@ -1,0 +1,153 @@
+/* Universal reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+/* Products */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+}
+
+.card .info h3 {
+    font-size: 20px;
+}
+
+.card .info p {
+    font-size: 15px;
+}
+
+.card .info a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+}
+
+footer p:last-child {
+    font-size: 14px;
+}
+
+/* Position absolute */
+#products {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
+/* Position fixed */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Position sticky */
+
+
+/* Z-index example */
+.card .info {
+    z-index: 1;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
